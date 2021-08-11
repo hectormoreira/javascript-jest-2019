@@ -1,0 +1,25 @@
+{
+  "name": "javascript-jest-2019",
+  "version": "1.0.0",
+  "description": "Pruebas unitarias con jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hectormoreira/javascript-jest-2019.git"
+  },
+  "author": "Hector Moreira <hector.moreirac@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hectormoreira/javascript-jest-2019/issues"
+  },
+  "homepage": "https://github.com/hectormoreira/javascript-jest-2019#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "babel-jest": "^27.0.6",
+    "jest": "^27.0.6"
+  }
+}
