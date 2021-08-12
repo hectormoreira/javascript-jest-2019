@@ -72,5 +72,16 @@ Las pruebas dan a entender la información de lo que estamos creando en nuestro 
 
 Los comparadores pueden ser:
 
-- toEqual()
-- not.toEqual()
+- `toEqual()`
+- `not.toEqual()`
+
+## Numbers
+Se puede correr las pruebas sin necesidad de tener la funcion de describe, Aunque es una muy buena practica agregarla.
+
+Los Métodos para numeros que nos provee jest son:
+
+- `.toBeGreaterThan()`
+- `.toBeGreaterThanOrEqual()`
+- `.toBeLessThan()`
+- `.toBeLessThanOrEqual()`
+- `.toBeCloseTo()` para números flotantes
