@@ -62,7 +62,15 @@ En la consola, dentro de la ruta de nuestro proyecto, corremos jest para ejecuta
 Test es el nombre de la carpeta que Jest identifica como el lugar en el que se ubican las pruebas.
 
 **Recuerda:**
-Test es el nombre de la carpeta que Jest identifica como el lugar en el que se ubican las pruebas.
-Exportar (export) las funciones para luego probarlas.
+- Test es el nombre de la carpeta que Jest identifica como el lugar en el que se ubican las pruebas.
+- Exportar (export) las funciones para luego probarlas.
 
-**RETO:** Construye las pruebas para la resta y la división.
+## Common Matchers / Comparadores Comunes
+Los comparadores comunes nos permiten probar nuevas cosas dentro de nuestro codigo. En esta clase, Pasaremos las pruebas directamente en nuestro archivo de jest.
+
+Las pruebas dan a entender la información de lo que estamos creando en nuestro proyecto, así que siempre recuerda documentarlas muy bien y siempre guardar los cambios en tu repositorio ya sea localmente o de forma remota.
+
+Los comparadores pueden ser:
+
+- toEqual()
+- not.toEqual()
