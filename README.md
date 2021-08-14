@@ -85,3 +85,25 @@ Los Métodos para numeros que nos provee jest son:
 - `.toBeLessThan()`
 - `.toBeLessThanOrEqual()`
 - `.toBeCloseTo()` para números flotantes
+
+## Truthness / Verdadero
+Probaremos funciones que nos retornan Boolean, Undefined o Null.
+
+Crearemos un nuevo archivo, donde crearemos las funciones que nos retornaran estos valores.
+
+Métodos de Jest usados en esta clase:
+
+- `.toBeNull()`
+- `.toBeTruthy()`
+- `.toBeFalsy()`
+- `.toBeUndefined()`
+- `.not.toBeTruthy()`
+
+## Arrays
+Crearemos un archivo JavaScript donde crearemos nuestros arreglos.
+Luego creamos las funciones para exportar los arrays.
+
+Métodos:
+
+- `.toContain()`
+- `.toHaveLength()`
