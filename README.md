@@ -107,3 +107,33 @@ Métodos:
 
 - `.toContain()`
 - `.toHaveLength()`
+
+## Coverage
+Con Coverage podemos saber si estamos "cubriendo" todo nuestro código en un archivo en particular.
+
+Coverage de Jest es una opción que nos permite verificar el código de nuestra aplicación validando que porciones de código no han sido testeadas.
+
+Para ello debemos agregar el flag `--coverage` en nuestro comando. Como output, nos dará un reporte.
+
+## Strings
+Ver si contiene o no una particularidad de texto que queremos comprobar asi como también la longitud.
+
+Métodos:
+
+- `.toMatch()`
+- `.not.toMatch()`
+- `.toHaveLength()`
+
+## Monitoreo
+rearemos un watcher para que escuche los cambios y realice las pruebas automáticamente. Para ello usamos el flag `--watch`, también podemos crear un script en nuestro package.json
+
+## Setup de pruebas
+Jest nos proporciona funciones auxiliares para mejorar el manejo de nuestras pruebas, esto significa que podremos correr funciones antes, durante o después de nuestras pruebas.
+
+Esto nos permite setear ciertas configuraciones muy particulares que necesitemos antes que corra la prueba o después de esta.
+
+- `.afterEach()` // Despues de cada prueba
+- `.afterAll()` // Despues de todas las pruebas
+
+- `.beforeEach()` // Antes de cada prueba
+- `.beforeAll()` // Antes de todas las pruebas

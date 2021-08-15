@@ -16,9 +16,6 @@ describe("Comparacion de numeros", () => {
   });
 
   test('Numeros flotantes', () => {
-    const value = 0.1 + 0.2;
-    //This won't work because of rounding error
-    //expect(value).toBe(0.3);
-    expect(value).toBeCloseTo(0.3); // This works.
+    expect(numbers(0.2,0.2)).toBeCloseTo(0.4);
   });
 });
