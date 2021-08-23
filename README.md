@@ -137,3 +137,12 @@ Esto nos permite setear ciertas configuraciones muy particulares que necesitemos
 
 - `.beforeEach()` // Antes de cada prueba
 - `.beforeAll()` // Antes de todas las pruebas
+
+## Callbacks
+Jest nos provee una función que nos permite probar funciones asíncronas como callbacks, promesas, async await, esta es llamada `done`.
+
+## Promesas
+Axios para hacer una peticion http. La cual nos devuelve una promesa.
+`npm install --save axios`
+>  Axios siempre retorna una promesa
+
