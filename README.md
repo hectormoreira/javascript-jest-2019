@@ -146,3 +146,14 @@ Axios para hacer una peticion http. La cual nos devuelve una promesa.
 `npm install --save axios`
 >  Axios siempre retorna una promesa
 
+## Reject y resolve
+En esta clase, vamos a probar las promesas cuando se resuelven o son rechazadas.
+
+Los métodos son:
+
+- `.resolves`
+- `.rejects`
+
+## Async/Await
+
+Vamos a seguir utilizando nuestra petición a la API.
