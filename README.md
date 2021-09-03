@@ -155,5 +155,9 @@ Los métodos son:
 - `.rejects`
 
 ## Async/Await
-
 Vamos a seguir utilizando nuestra petición a la API.
+
+## Aplicaciones de testing para Async/Await
+Que nuestra API cause un error para luego ver cómo manejaremos el error.
+
+Trabajaremos varios ejercicios con async/await. En donde esperamos que las respuestas sean cumplidas para luego evaluar lo que queremos en las expectativas de nuestras pruebas.
