@@ -161,3 +161,39 @@ Vamos a seguir utilizando nuestra petición a la API.
 Que nuestra API cause un error para luego ver cómo manejaremos el error.
 
 Trabajaremos varios ejercicios con async/await. En donde esperamos que las respuestas sean cumplidas para luego evaluar lo que queremos en las expectativas de nuestras pruebas.
+
+## Snapshot Testing
+Los snapshots nos garantizan que vamos a asegurar o que no vaya a pasar algún cambio inesperado en nuestra UI. Comprobamos lo que tenemos en este caso jest contra lo que estamos trayendo y que no deben de cambiar. Ya que esto lo usamos para casos en donde cierto datos en particulares rara vez deben de cambiar.
+
+Ejemplo: Un icono que lo traigamos de alguna petición http. Entonces evaluaremos el cambio contra la prueba que tenemos en jest.
+
+En caso de que queramos aceptar el cambio agregamos el flag `-u`.
+
+## Excepciones Snapshot20/24
+Existen datos que no siempre son estáticos, Al contrario. Están constantemente cambiando. Para ello necesitamos hacer ciertas excepciones.
+
+## Preparar proyecto para trabajar con React JS
+En la terminal ejecutamos:
+```sh
+git clone https://github.com/gndx/platzi-react-jest
+cd platzi-react-jest
+npm install
+npm start
+```
+
+Create React App. Ya tiene incluido Jest pero obviamente para probar lo más mínimo. Nuestro trabajo es hacer pruebas a todo lo que vamos agregando a nuestro proyecto.
+
+npm install --save-dev enzyme enzyme-adapter-react-16
+
+## Beneficios de las Pruebas Unitarias
+- Aprendimos a añadir pruebas unitarias a proyectos javascript usando vanilla.js.
+- Hicimos pruebas a funciones asíncronas
+- Creamos snapshots, Hasta llegar a proyectos más complejos usando React, Vue o Express.
+
+**Recuerda:**
+Hacer pruebas unitarias no solo te hace mejor desarrollador, también te ayuda a conocer mejor el proyecto y a detectar errores con mayor rapidez y efectividad
+
+**Como consejo final. Nunca pares de aprender.**
+
+
+
